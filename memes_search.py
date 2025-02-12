@@ -18,7 +18,7 @@ print(f'The device we found: {device}')
 model, preprocess = clip.load("ViT-B/32", device)
 
 # Define the path to the folder containing images
-image_folder = "/media/mahfuz/Media/ML_challanges/challange_1/image"
+image_folder = "file_path/"
 
 # Preprocess and Generate Image Embeddings
 def generate_image_embeddings(folder_path):
